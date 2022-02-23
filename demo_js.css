@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {font-family: 'Roboto Mono', monospace; font-size:12px; margin-top:0;
+background-color: bisque;}
+img {max-width: 150%; height:auto;
+}
+
+
+figure {
+		width: 70vw;
+		height: 40vw;
+		margin: 10vh auto;
+
+		}
+.text {
+  position: inherit;
+  text-align: left;
+  color: black;
+
+}
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}	
+/* text */
+
+
+h2 {color: #000000;
+	font-size: 24px;
+	letter-spacing: 5px;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+p {color: #000000;
+	font-size: 16px;
+	text-align: left; 
+font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+
+} 
+
+
+/* NAV */
+
+#navigation {max-width:970px; background-color:bisque; margin-left:0; margin-right:auto;}
+.nav a.href {
+    float: right;
+    display: block;
+}
+
+header::after {
+	content: ' ';
+	display: table;
+	clear: both;
+}
+#logo {width:163px;margin-top:  left;}
+
+/*content styles*/
+
+
+form {
+	width: 600px; 
+	margin:0 auto;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif" padding 30px;
+	font-size: 18px;}
+
+fieldset { 
+	padding-bottom:30px; 
+	clear: both;
+	padding-top:10px;}
+
+input  {padding:2px;}
+
+form h1{
+	   color:black;}
+.submitbutton{width:100px;
+	   margin:0 auto;}
+.submitbutton input{padding:10px 20px;
+	   background-color:white;}
+	
+.lables {width:250px;float:left;
+	    text-align:right;}
+.input {width:300px;
+	   float:left;}
+
+
+
+.body-content {background-color: #FFFFFF;
+	padding: 15px;
+	border-style: inset;
+	border-color:#F7B944;
+	border-width: 7px;
+	width: 60%;
+	margin-left: 5% !important;
+	margin-right: 5% !important;
+	margin-bottom: 5%;
+}
+
+#sub-pic {max-width: 28%;
+	max-height: 30;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5% !important;
+	float: left;
+}
+
+
+#sub-pic2 {max-width: 28%;
+	max-height: 5;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5% !important;
+	float: left;
+}
+#sub-pic3 {max-width: 28%;
+	max-height: 5;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5% !important;
+	float: left;
+}
+#sub-pic4 {max-width: 28%;
+	max-height: 5;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5% !important;
+	float: left;
+}
+
+.blinking{
+    animation:blinkingText 8s infinite;
+    color: #940F0F;
+	font-size: 24px;
+	letter-spacing: 5px;
+	text-align:center;
+	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+}
+		
+
+@keyframes blinkingText{
+    0%{     color: #940F0F;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #940F0F;}
+}
+
+/*FOOTER*/
+
+	
+
+
+@media(max-width: 992px){
+
+p {color: black;
+	font-size: 18px;
+	text-align: center;
+	font-family: "fredericka-the-great";
+}
+}
+form {
+	width: 600px; 
+	margin:0 auto;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif" padding 30px;
+	font-size: 18px;}
+
+fieldset { 
+	padding-bottom:30px; 
+	clear: both;
+	padding-top:10px;}
+
+input  {padding:2px;}
+
+form h1{
+	   color:black;}
+.submitbutton{width:100px;
+	   margin:0 auto;}
+.submitbutton input{padding:10px 20px;
+	   background-color:white;}
+	
+.lables {width:250px;float:left;
+	    text-align:right;}
+.input {width:300px;
+	   float:left;}
+	
+
+
+	
+
+@media(max-width: 600px){
+
+	object {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+	h2 {font-size: 22px;
+}
+
+p {	font-size: 14px;
+}
+
+
+.nav.responsive {position: relative;
+}
+	}
