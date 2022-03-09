@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+		max-height: 70;
+    }
+    footer {
+      background-color: #695b42;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+ 
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Espresso House</a></li>
+           <li><a href="#">Menu</a></li>
+	    <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+		  <img src="../week03/coffeeimgs/logo.png" width="50" height="50" alt=""/> <a href="#" class="text-white">Facebook</a>	
+			 <a href="#" class="text-white">Instagram </a>	
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+     <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="coffeeimgs/Espresso-House-e1437496644233.png" alt="Image">
+        <div class="carousel-caption btn-dark">
+          <h3>Hang out </h3>
+          <p>Catch up on work.</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> </p>
+
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="coffeeimgs/image.png" alt="Image">
+        <div class="carousel-caption">
+          <h3>Enjoy a wonderful meals</h3>
+          <p>Any time of the day</p>
+        </div>      
+      </div>
+		
+		      <div class="item">
+        <img src="coffeeimgs/a64efe62823977.5a9d3edd44e4b.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Espresso House </h3>
+          <p>A place to reconnect and hang out</p>
+        </div>      
+      </div>
+		
+		      <div class="item">
+        <img src="coffeeimgs/Espresso-House-33188.jpeg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Espresso House </h3>
+          <p>Freshness</p>
+        </div>      
+      </div>
+		      <div class="item">
+        <img src="coffeeimgs/photo0jpg.jpeg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Tea House </h3>
+          <p>And Espresso of course</p>
+        </div>      
+      </div>
+		      <div class="item">
+        <img src="coffeeimgs/a64efe62823977.5a9d3edd44e4b.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Espresso House </h3>
+          <p></p>
+
+        </div>      
+      </div>
+
+
+		
+  </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+
+<div class="container text-center">    
+  <h3>What We Do</h3>
+ 
+	<p class="text-left">Espresso House is the largest coffeehouse chaingin the Nordic countries. At Espresso House we are passionate about a wonderful coffee experience. brewed coffee and espresso served in our coffee shops is a so-called special coffee. Roasting, beans, quality and aromas are important factors for us to be able to proudly serve our guests a really good cup of coffee.</p>
+	
+	<p class="text-left">All this, however, ends up in the shadows if we can not proudly say that the coffee is grown under healthy conditions. Crucial for the coffee to come to its right taste is also the freshness. It is precisely freshly roasted coffee that has the most delicious flavors and aromas. At our own roastery in Länna, our coffee is roasted slowly and carefully so that the unique character of each bean reaches its full potential. To be sure of how fresh our coffee is, all our bags are labeled with roasting date and time.</p>
+	 <p>&nbsp;</p>
+	
+	 <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="coffeeimgs/2018-01-10-1024x1024.jpeg" class="img-responsive" style="width:100%" alt="Image">
+          <p>Lattes</p>
+        </div>
+        <div class="col-sm-4"> 
+          <img src="coffeeimgs/espresso_house_presentkort_800x800_kopia_2_.jpeg" class="img-responsive" style="width:100%" alt="Image">
+          <p>Membership card</p>    
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+           <p>If you have a Coffee Card that you have filled up with a sufficient amount, you can use the card when you pay at the checkout in our coffee shops. When you use your Coffee Card, you get a 10% discount on selected food and beverages, and when you pay, the amount is deducted from your Coffee Card.</p>
+          </div>
+          <div class="well">
+           <p>You can visit all of our coffee shops and request a Coffee Card. The card is not personal and is completely free.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><br>
+ 
+
+
+
+<div class="container text-center">    
+    <h3></h3>       
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="coffeeimgs/sugar-free-jello-pie-800x800.webp" class="img-responsive" style="width:100%" alt="Image">
+        <p>Sugar free jello pie 45 kr</p>
+      </div>
+      <div class="col-sm-4"> 
+        <img src="coffeeimgs/reeses-pb-trifle-recipe1-1.webp" class="img-responsive" style="width:100%" alt="Image">
+        <p>Merang cake 50kr</p>    
+      </div>
+          </div>
+    </div>
+  </div><br>
+
+  <div class="container text-center">    
+    <h3></h3>       
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="coffeeimgs/1147-coffee-bellingham-800x800.jpeg" class="img-responsive" style="width:100%" alt="Image">
+        <p>Latte Chai 30kr</p>
+      </div>
+      <div class="col-sm-4"> 
+        <img src="coffeeimgs/56217373.webp" class="img-responsive" style="width:100%" alt="Image">
+        <p>Tiramtsu 35kr</p>    
+      </div>
+          </div>
+    </div>
+  </div><br>
+
+  <div class="container text-center">    
+    <h3></h3>       
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="coffeeimgs/75606827.webp" class="img-responsive" style="width:100%" alt="Image">
+        <p>Medi sandwich 25kr</p>
+      </div>
+      <div class="col-sm-4"> 
+        <img src="coffeeimgs/italian-brick-sandwich-800x800.jpeg" class="img-responsive" style="width:100%" alt="Image">
+        <p>Italian brick sandwich 45kr</p>    
+      </div>
+          </div>
+    </div>
+  </div><br>
+
+<footer class="container-fluid text-center">
+  <p>House of Coffee</p>
+</footer>
+
+</body>
+</html>
