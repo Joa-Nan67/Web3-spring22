@@ -365,17 +365,16 @@ a:focus {
 .product_section .heading_container {
   margin-bottom: 20px;
 }
-
 .product_section .box {
     position: relative;
     margin-top: 25px;
     padding: 35px 35px;
     background-color: #fffff0;
-    -webkit-transition: all .3s;
+      -webkit-transition: all .3s;
     transition: all .3s;
     overflow: hidden;
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
-    border: solid #fffff0 10px;
+    border: solid #FffFF0 10px;
 }
 
 .product_section .box .img-box {

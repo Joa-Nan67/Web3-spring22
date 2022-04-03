@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+  font-family:  Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
  ;
   color: #0c0c0c;
   background-color: #ffffff;
@@ -70,7 +70,7 @@ h2 {
 }
 
 .heading_container h2 span {
-  color: #9E4901;
+  color: #800081;
 }
 
 .heading_container p {
@@ -124,7 +124,7 @@ a:focus {
 
 .header_section {
     padding: 15px 0;
-	background-color: #F7FFDC;
+	background-color: #FEEEFF;
 }
 
 .header_section .container-fluid {
@@ -168,7 +168,7 @@ a:focus {
 .custom_nav-container .navbar-nav .nav-item .nav-link svg {
   width: 17px;
   height: auto;
-  fill: #000000;
+  fill: ##800081;
   margin-bottom: 2px;
 }
 
@@ -208,7 +208,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000000;
+  background-color: #00000;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -282,13 +282,14 @@ a:focus {
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #FFFFF0;
+    color: #800081;
     line-height: 70px;
 }
 
 .slider_section .detail-box h1 span {
-  color: #FCF7F7;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  color: #F8E3F7;
+	background-color: black;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
 
 .slider_section .detail-box p {
@@ -300,9 +301,9 @@ a:focus {
 .slider_section .detail-box a {
     display: inline-block;
     padding: 12px 45px;
-    background-color: #FFFFF0;
-    border: 1px solid #fffff0;
-    color: #9E4901;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: #FEEEFF;
     border-radius: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -312,7 +313,7 @@ a:focus {
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #000000;
+  color: #ffffff;
 }
 
 .slider_section .img-box img {
@@ -343,7 +344,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #000000;
+  background-color: #800081;
 }
 
 .slider_bg_box {
@@ -372,12 +373,12 @@ a:focus {
     position: relative;
     margin-top: 25px;
     padding: 35px 35px;
-    background-color: #fffff0;
+    background-color: #FEEEFF;
     -webkit-transition: all .3s;
     transition: all .3s;
     overflow: hidden;
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
-    border: solid #fffff0 10px;
+    border: solid #FEEEFF 10px;
 }
 
 .product_section .box .img-box {
@@ -433,8 +434,8 @@ a:focus {
           transform: translateY(0);
 }
 .arrival_section {
-    background-color: #fffff0;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    background-color: #FEEEFF;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
 }
 .product_section .option_container {
   position: absolute;
@@ -486,14 +487,14 @@ a:focus {
 }
 
 .product_section .options .option1 {
-  background-color: #9E4901;
-  border: 1px solid #9E4901;
+  background-color: #800081;
+  border: 1px solid #800081;
   color: #ffffff;
 }
 
 .product_section .options .option1:hover {
   background-color: transparent;
-  color: #9E4901;
+  color: #800081;
 }
 
 .product_section .options .option2 {
@@ -520,8 +521,8 @@ a:focus {
 .product_section .btn-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #9E4901;
-  border: 1px solid #9E4901;
+  background-color: #800081;
+  border: 1px solid #800081;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -530,11 +531,11 @@ a:focus {
 
 .product_section .btn-box a:hover {
   background-color: transparent;
-  color: #9E4901;
+  color: #800081;
 }
 
 .arrival_section .heading_container {
-  color: #9E4901;
+  color: #800081;
 	
   margin-bottom: 10px;
 	
@@ -567,24 +568,24 @@ a:focus {
 .arrival_section a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #fffff0;
-  border: 1px solid #9E4901;
-  color: #9E4901;
+  background-color: #FFFFFF;
+  border: 1px solid #800081;
+  color: #800081;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
 
 .arrival_section a:hover {
   background-color: transparent;
-  color: #D99358;
+  color: #800081;
 }
 
 .why_section .box {
     text-align: center;
     margin-top: 45px;
-    background-color: #9E4901;
+    background-color: #800081;
     padding: 45px 50px;
     border-radius: 5px;
     color: #ffffff;
@@ -614,7 +615,7 @@ a:focus {
 }
 
 .subscribe_section .box {
-  background-color: #D6965D;
+  background-color: #FFC6F7;
   padding: 75px 45px;
 }
 
@@ -622,7 +623,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #fffff0;
+  color: #000000;
 }
 
 .subscribe_section .subscribe_form .heading_container h2 {
@@ -649,32 +650,32 @@ a:focus {
     border-radius: 90px;
     outline: none;
     padding: 5px 25px;
-    background-color: #fffff0;
+    background-color: #FFFFFF;
     margin-top: 15px;
     text-align: left;
 }
 
 .subscribe_section .subscribe_form form input::-webkit-input-placeholder {
-  color: #9E4901;
+  color: #800081;
 }
 
 .subscribe_section .subscribe_form form input:-ms-input-placeholder {
-  color: #9E4901;
+  color: #800081;
 }
 
 .subscribe_section .subscribe_form form input::-ms-input-placeholder {
-  color: #9E4901;
+  color: #800081;
 }
 
 .subscribe_section .subscribe_form form input::placeholder {
-  color: #9E4901;
+  color: #800081;
 }
 
 .subscribe_section .subscribe_form form button {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #9E4901;
-  border: 1px solid #9E4901;
+  background-color: #800081;
+  border: 1px solid  #800081;
   color: #ffffff;
   border-radius: 35px;
   -webkit-transition: all 0.3s;
@@ -688,7 +689,7 @@ a:focus {
 
 .subscribe_section .subscribe_form form button:hover {
   background-color: transparent;
-  color: #9E4901;
+  color: #800081;
 }
 
 .client_section .box {
@@ -785,7 +786,7 @@ a:focus {
   height: 50px;
   opacity: 1;
   color: #ffffff;
-  background-color: #9E4901;
+  background-color: #800081;
   border-radius: 100%;
 }
 
@@ -804,7 +805,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #9E4901;
+  background-color: #800081;
   color: #ffffff;
   padding-top: 70px;
 }
@@ -822,7 +823,7 @@ a:focus {
 .footer_section .footer-logo {
   font-weight: 600;
   margin-bottom: 20px;
-  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
   text-align: left;
 }
 
@@ -850,7 +851,7 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-  color: #9E4901;
+  color: #800081;
 }
 
 .footer_section .footer-logo {
@@ -881,7 +882,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #9E4901;
+  color: #800081;
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -892,7 +893,7 @@ a:focus {
 }
 
 .footer_section .footer_social a:hover {
-  color: #9E4901;
+  color: #800081;
 }
 
 .footer_section .map_container {
@@ -940,7 +941,7 @@ a:focus {
     margin-bottom: 15px;
     font-size: 2.5rem;
     font-weight: bold;
-    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
 
 li.nav-item ul {
@@ -961,7 +962,7 @@ li.nav-item ul li {
 }
 
 li.nav-item ul li a {
-    color: #9E4901;
+    color: #800081;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.2px;
@@ -970,11 +971,11 @@ li.nav-item ul li a {
 }
 
 li.nav-item ul li a:hover, li.nav-item ul li a:focus {
-    color: #9E4901;
+    color: #800081;
 }
 
 .inner_page_head {
-    background: #9E4901;
+    background: #800081;
     text-align: center;
     color: #fff;
     padding-top: 50px;
@@ -1058,7 +1059,7 @@ div.form_sub .field input[type="email"], div.form_sub .field input[type="email"]
 .form_sub input[type="email"] + input[type="submit"] {
     position: absolute;
     right: 0;
-    background: #9E4901;
+    background: #800081;
     color: #fff;
     border: none;
     top: 0px;
