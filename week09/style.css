@@ -1,0 +1,109 @@
+
+.navbar{  background: #77A1D3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.nav-link{
+    font-family:  "Lucida Bright" "cursive"  !important;
+    color: #6301D6;
+    font-weight: 400;
+    transition-property: font-weight;
+    transition-duration: 2s;
+    transition-delay: 3ms;
+}
+
+.nav-link:hover{
+    font-weight: 700;
+}
+.bgdark{
+    background-color: darkslateblue;
+}
+.foot-bg{ background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #7AA1D2, #DBD4B4, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+	
+   
+}
+.high{
+    height:100px;
+}
+.navbar-brand{
+    font-family: 'unifrakturmaguntia' !important;
+    font-size: 30px;
+    color: #385030 !important;
+}
+
+.translateDA div{
+    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Dancer1B.png");
+    background-size: contain;
+    opacity: .85;
+}
+
+.translateDA .imgB:hover{
+    transform: translate(25px);
+}
+.translateDC div{
+    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Dancer2B.png");
+    background-size: contain;
+    opacity: .85;
+}
+
+.translateDC .imgB:hover{
+    transform: translate(25px);
+}
+.translateDE div{
+    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Dancer3B.png");
+    background-size: contain;
+    opacity: .85;
+}
+
+.translateDE .imgB:hover{
+    transform: translate(25px);
+}
+.imgS:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+.translateQ div{
+    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/QuoteB.png");
+    background-size: contain;
+}
+
+.translateQ .imgB:hover{
+    transform: translate(-25px);
+}
+.translateGA div{
+    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Girl1A.png");
+    background-size: contain;
+    opacity: .85;
+}
+
+.translateGA .imgB:hover{
+    transform: translate(25px);
+}
+.translateGC div{
+    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Girl2A.png");
+    background-size: contain;
+    opacity: .85;
+}
+
+.translateGC .imgB:hover{
+    transform: translate(25px);
+}
+.translateGE div{
+    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Girl3A.png");
+    background-size: contain;
+    opacity: .85;
+}
+
+.translateGE .imgB:hover{
+    transform: translate(25px);
+}
+.imgs{
+    opacity: .9;
+}
+
+
