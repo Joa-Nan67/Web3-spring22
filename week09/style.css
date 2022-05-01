@@ -6,7 +6,7 @@ background: linear-gradient(to bottom, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10
 }
 .nav-link{
     font-family:  "Lucida Bright" "cursive"  !important;
-    color: #6301D6;
+   color: rgba(245,0,39,1.00);
     font-weight: 400;
     transition-property: font-weight;
     transition-duration: 2s;
@@ -17,7 +17,7 @@ background: linear-gradient(to bottom, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10
     font-weight: 700;
 }
 .bgdark{
-    background-color: darkslateblue;
+    background-color: darkslategrey;
 }
 .foot-bg{ background: #CC95C0;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #7AA1D2, #DBD4B4, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -31,13 +31,13 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     height:100px;
 }
 .navbar-brand{
-    font-family: 'unifrakturmaguntia' !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'!important;
     font-size: 30px;
-    color: #385030 !important;
+    color: rgba(0,0,0,1.00) !important;
 }
 
 .translateDA div{
-    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Dancer1B.png");
+    background: url("../week09/imgs/db.png");
     background-size: contain;
     opacity: .85;
 }
@@ -46,7 +46,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     transform: translate(25px);
 }
 .translateDC div{
-    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Dancer2B.png");
+    background: url("../week09/imgs/bb_.png");
     background-size: contain;
     opacity: .85;
 }
@@ -55,7 +55,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     transform: translate(25px);
 }
 .translateDE div{
-    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Dancer3B.png");
+    background: url("../week09/imgs/obs.png");
     background-size: contain;
     opacity: .85;
 }
@@ -68,7 +68,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     transform: scaleX(-1);
   }
 .translateQ div{
-    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/QuoteB.png");
+    background: url("../week09/imgs/mcb.png");
     background-size: contain;
 }
 
@@ -76,7 +76,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     transform: translate(-25px);
 }
 .translateGA div{
-    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Girl1A.png");
+    background: url("../week09/imgs/ob.png");
     background-size: contain;
     opacity: .85;
 }
@@ -85,7 +85,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     transform: translate(25px);
 }
 .translateGC div{
-    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Girl2A.png");
+    background: url("../week09/imgs/jb.png");
     background-size: contain;
     opacity: .85;
 }
@@ -94,7 +94,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     transform: translate(25px);
 }
 .translateGE div{
-    background: url("../../../SMCWebDesign3Spring2022-main/Week9/HW/imgs/Girl3A.png");
+    background: url("../week09/imgs/mb.png");
     background-size: contain;
     opacity: .85;
 }
