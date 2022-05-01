@@ -55,7 +55,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     transform: translate(25px);
 }
 .translateDE div{
-    background: url("../week09/imgs/obs.png");
+    background: url("../week09/imgs/ob2.png");
     background-size: contain;
     opacity: .85;
 }
@@ -63,6 +63,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
 .translateDE .imgB:hover{
     transform: translate(25px);
 }
+
 .imgS:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -103,7 +104,7 @@ background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ 
     transform: translate(25px);
 }
 .imgs{
-    opacity: .9;
+    opacity: .3;
 }
 
 
