@@ -51,11 +51,6 @@ background: linear-gradient(to top, #000000, #536976); /* W3C, IE 10+/ Edge, Fir
     font-weight: 800 !important;
 }
 
-.card{
-    background-color: #000000 !important;
-    font-family: 'Roboto', sans-serif !important;
-    color: rgba(205, 236, 252, 0.8)!important;
-}
 
 
 .form-control{
@@ -66,16 +61,7 @@ background: linear-gradient(to top, #000000, #536976); /* W3C, IE 10+/ Edge, Fir
     color: hsl(0,0%,0%)!important;
 }
 
-.btn-outline-light{
-    font-family: 'Roboto', sans-serif !important;
-    font-weight: 700 !important;
-}
-.btn-outline-light:hover{
-    color: #000000 !important;
-    font-family: 'Roboto', sans-serif !important;
-    background: #A0B8E3;
-    border-color: #A5C8EC !important;
-}
+
 .text-muted{
     color:#110721 !important;
 }
