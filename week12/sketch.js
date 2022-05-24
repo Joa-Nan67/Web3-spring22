@@ -14,18 +14,18 @@ let clickCounter;
 let clickMiss;
 
 function setup(){
-    let myCanvas = createCanvas(800,600);
-    myCanvas.parent('canvasParent');
+    let myCanvas = createCanvas(800,400);
+    myCanvas.parent('canvasP');
 
     colorMode(HSB, 160, 100, 100);
     
-    sliderHue = createSlider(0,360,0,15);
-    sliderHue.parent('canvasUI');
-    sliderHue.style('width','100px');
+    sliderHue = createSlider(0,360,20,15);
+    sliderHue.parent('canvasIT');
+    sliderHue.style('width','80px');
 
-    sliderSize = createSlider(0,360,0,15);
-    sliderSize.parent('canvasUII');
-    sliderSize.style ('width','100px');
+    sliderSize = createSlider(0,360,20,15);
+    sliderSize.parent('canvasITT');
+    sliderSize.style ('width','80px');
 
     posX = width/2;
     posY = height/2;
@@ -41,10 +41,10 @@ function setup(){
 }
 
 function draw(){
-    background(40, 50, 102);
+    background(40, 70, 102);
 
     noStroke();
-    circleClr= color(sliderHue.value(),80,100)
+    circleClr= color(sliderHue.value(),70,100)
     const s = sliderSize.value();
     radius = 50 + s;
     fill(circleClr)
@@ -59,21 +59,21 @@ function draw(){
     posY += velY;
 
     noFill();
-    stroke(270,70,0);
-    strokeWeight(5);
+    stroke(140,50,0);
+    strokeWeight(3);
     rect(5,5,117,61);
 
-    textSize(24);
-    strokeWeight(2);
-    fill(0,0,100)
-    text('Win',11,28)
+    textSize(16);
+    strokeWeight(1);
+    fill(100,100,100)
+    text('Win',9,25)
     text(clickCounter, 78, 28);
 
 
-    textSize(24);
-    strokeWeight(2);
-    fill(0,0,100)
-    text('Miss',11,60)
+    textSize(16);
+    strokeWeight(1);
+    fill(100,100,100)
+    text('Miss',9,60)
     text(clickMiss, 78, 60);
 
 }// end of draw
