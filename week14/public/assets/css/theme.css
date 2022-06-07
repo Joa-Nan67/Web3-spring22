@@ -1,50 +1,41 @@
-/* -------------------------------------------------------------------------- */
-/*                                 Theme                                      */
-/* -------------------------------------------------------------------------- */
-/* prettier-ignore */
-/* -------------------------------------------------------------------------- */
-/*                                  Utilities                                 */
-/* -------------------------------------------------------------------------- */
-/*-----------------------------------------------
-|   Bootstrap Styles
------------------------------------------------*/
+
 /*!
  * Bootstrap v5.0.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
-  --bs-blue: #747DEF;
-  --bs-indigo: #6237FF;
-  --bs-purple: #A1B0FC;
-  --bs-pink: #D42DA3;
-  --bs-red: #DF6951;
-  --bs-orange: #DF6951;
-  --bs-yellow: #FF9900;
-  --bs-green: #79B93C;
-  --bs-teal: #567592;
-  --bs-cyan: #2fc4f1;
-  --bs-white: #FFFEFE;
-  --bs-gray: #F0F4F9;
-  --bs-gray-dark: #979797;
-  --bs-primary: #747DEF;
-  --bs-secondary: #544837;
-  --bs-success: #79B93C;
-  --bs-info: #567592;
-  --bs-warning: #FF9900;
-  --bs-danger: #DF6951;
-  --bs-light: #F0F4F9;
-  --bs-dark: #979797;
-  --bs-font-sans-serif: "Poppins", "Rubik", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
+.root {
+  bs-blue: #747DEF;
+  bs-indigo: #6237FF;
+  bs-purple: #A1B0FC;
+  bs-pink: #D42DA3;
+  bs-red: #DF6951;
+  bs-orange: #DF6951;
+  bs-yellow: #FF9900;
+  bs-green: #79B93C;
+  bs-teal: #567592;
+  bs-cyan: #2fc4f1;
+  bs-white: #FFFEFE;
+  bs-gray: #F0F4F9;
+  bs-gray-dark: #979797;
+  bs-primary: #747DEF;
+  bs-secondary: #544837;
+  bs-success: #79B93C;
+  bs-info: #567592;
+  bs-warning: #FF9900;
+  bs-danger: #DF6951;
+  bs-light: #F0F4F9;
+  bs-dark: #979797;
+  bs-font-sans-serif: "Poppins", "Rubik", "Segoe UI", Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
 }
 
 *,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
+before,
+after {
+  webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -56,12 +47,15 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Poppins";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #2F281E;
-  background-color: #FFFEFE;
+background: #525252;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3d72b4, #5252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
