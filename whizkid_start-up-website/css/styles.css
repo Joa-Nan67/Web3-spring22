@@ -23,8 +23,8 @@ Table Of Contents:
 /*****************************************
 Colors:
 - Backgrounds - light gray #f7f9fd
-- Headings text - black #161223
-- Body text - dark gray #53575a
+- Headings text - black #0e0d03
+- Body text - dark yellow #53575a
 - Buttons, icons - green #7dc22b
 ******************************************/
 
@@ -39,12 +39,12 @@ html {
 }
 
 body, p {
-	color: #0A0B29; 
+	color: #0e0d03; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
 h1 {
-	color: #161223;
+	color: #0e0d03;
 	font-weight: 600;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-	color: #11082E;
+	color: #0e0d03;
 	font-weight: 600;
 	font-size: 2rem;
 	line-height: 2.5rem;
@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-	color: #161223;
+	color: #0e0d03;
 	font-weight: 600;
 	font-size: 1.75rem;
 	line-height: 2.25rem;
@@ -68,7 +68,7 @@ h3 {
 }
 
 h4 {
-	color: #07082C;
+	color: #2e2b08;
 	font-weight: 600;
 	font-size: 1.5rem;
 	line-height: 2rem;
@@ -76,7 +76,7 @@ h4 {
 }
 
 h5 {
-	color: #161223;
+	color: #0e0d03;
 	font-weight: 600;
 	font-size: 1.25rem;
 	line-height: 1.625rem;
@@ -84,7 +84,7 @@ h5 {
 }
 
 h6 {
-	color: #161223;
+	color: #0e0d03;
 	font-weight: 600;
 	font-size: 1rem;
 	line-height: 1.375rem;
@@ -117,12 +117,12 @@ h6 {
 }
 
 a {
-	color: #53575a;
+	color: #a17e0b;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #53575a;
+	color: #a17e0b;
 	text-decoration: underline;
 }
 
@@ -197,10 +197,10 @@ a:hover {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #161223;
+	border: 1px solid #0e0d03;
 	border-radius: 4px;
 	background-color: transparent;
-	color: #161223;
+	color: #0e0d03;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -209,7 +209,7 @@ a:hover {
 }
 
 .btn-outline-reg:hover {
-	background-color: #161223;
+	background-color: #0e0d03;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -217,10 +217,10 @@ a:hover {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #161223;
+	border: 1px solid #0e0d03;
 	border-radius: 4px;
 	background-color: transparent;
-	color: #161223;
+	color: #0e0d03;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .btn-outline-lg:hover {
-	background-color: #161223;
+	background-color: #0e0d03;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -237,10 +237,10 @@ a:hover {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.5rem 1rem 1.5rem;
-	border: 1px solid #161223;
+	border: 1px solid #0e0d03;
 	border-radius: 4px;
 	background-color: transparent;
-	color: #161223;
+	color: #0e0d03;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -249,9 +249,11 @@ a:hover {
 }
 
 .btn-outline-sm:hover {
-	background-color: #161223;
+	background-color: #0e0d03;
 	color: #ffffff;
 	text-decoration: none;
+	
+    transition: background-color 0.2s, color 0.2s, text-decoration 0.2s;
 }
 
 .form-group {
@@ -315,7 +317,7 @@ a:hover {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #161223;
+	background-color: #0e0d03;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -350,7 +352,7 @@ a:hover {
 	padding-left: 1rem;
 	overflow-y: auto;
 	visibility: hidden;
-	background-color: #161223;
+	background-color: #0e0d03;
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
@@ -415,7 +417,7 @@ a:hover {
 }
 
 .navbar .dropdown-item:hover {
-	background-color: #161223;
+	background-color: #0e0d03;
 	color: #7dc22b;
 }
 
@@ -829,7 +831,7 @@ a:hover {
 }
 
 .counter .counter-info {
-	color: #161223;
+	color: #0e0d03;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
 }
@@ -999,8 +1001,8 @@ a:hover {
 /*************************/
 /*     Media Queries     */
 /*************************/	
-/* Min-width 768px */
-@media (min-width: 768px) {
+/* Min-width 576px */
+@media (min-width: 576px) {
 
 	/* Header */
 	.header .header-content {
@@ -1039,11 +1041,11 @@ a:hover {
 	}
 	/* end of extra pages */
 }
-/* end of min-width 768px */
+/* end of min-width 5px */
 
 
-/* Min-width 992px */
-@media (min-width: 992px) {
+/* Min-width 768px */
+@media (min-width: 768px) {
 	
 	/* General Styles */
 	.h2-heading {
@@ -1268,7 +1270,7 @@ a:hover {
 	
 	/* General Styles */
 	.container {
-		max-width: 1140px;
+		max-width: 1200px;
 	}
 	/* end of general styles */
 	
@@ -1351,7 +1353,7 @@ a:hover {
 
 	/* Testimonials */
 	.slider-1 .slider-container {
-		width: 82%;
+		width: 100%;
 		margin-right: auto;
 		margin-left: auto;
 	}
